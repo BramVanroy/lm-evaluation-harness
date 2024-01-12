@@ -86,7 +86,7 @@ class HuggingFaceAutoLM(BaseLM):
             peft: str = None,
             load_in_8bit: Optional[bool] = False,
             load_in_4bit: bool = False,
-            trust_remote_code: Optional[bool] = False,
+            trust_remote_code: Optional[bool] = True,
     ):
         """Initializes a HuggingFace `AutoModel` and `AutoTokenizer` for evaluation.
         Args:

@@ -1,0 +1,23 @@
+{
+  "results": {
+    "mmlu_nl": {
+      "acc": 0.35152159065037564,
+      "acc_stderr": 0.004159412281926304,
+      "acc_norm": 0.3144873643469682,
+      "acc_norm_stderr": 0.004044990811964098
+    }
+  },
+  "versions": {
+    "mmlu_nl": 0
+  },
+  "config": {
+    "model": "hf-auto",
+    "model_args": "pretrained=Unbabel/TowerBase-7B-v0.1,use_accelerate=True,device_map_option=auto,dtype=auto,load_in_8bit=True",
+    "batch_size": 4,
+    "device": "cuda",
+    "no_cache": false,
+    "limit": null,
+    "bootstrap_iters": 100000,
+    "description_dict": {}
+  }
+}

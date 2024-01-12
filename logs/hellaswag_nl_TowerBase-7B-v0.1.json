@@ -1,0 +1,23 @@
+{
+  "results": {
+    "hellaswag_nl": {
+      "acc": 0.4561252023745278,
+      "acc_stderr": 0.005174784023983772,
+      "acc_norm": 0.5817593092282785,
+      "acc_norm_stderr": 0.005124901694100509
+    }
+  },
+  "versions": {
+    "hellaswag_nl": 1
+  },
+  "config": {
+    "model": "hf-auto",
+    "model_args": "pretrained=Unbabel/TowerBase-7B-v0.1,use_accelerate=True,device_map_option=auto,dtype=auto,load_in_8bit=True",
+    "batch_size": 4,
+    "device": "cuda",
+    "no_cache": false,
+    "limit": null,
+    "bootstrap_iters": 100000,
+    "description_dict": {}
+  }
+}

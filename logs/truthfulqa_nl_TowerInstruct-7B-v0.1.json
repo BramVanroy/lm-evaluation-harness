@@ -1,0 +1,23 @@
+{
+  "results": {
+    "truthfulqa_nl": {
+      "mc1": 0.30318471337579617,
+      "mc1_stderr": 0.01641551278171108,
+      "mc2": 0.4474541407756634,
+      "mc2_stderr": 0.01525070581914585
+    }
+  },
+  "versions": {
+    "truthfulqa_nl": 1
+  },
+  "config": {
+    "model": "hf-auto",
+    "model_args": "pretrained=Unbabel/TowerInstruct-7B-v0.1,use_accelerate=True,device_map_option=auto,dtype=auto,load_in_8bit=True",
+    "batch_size": 4,
+    "device": "cuda",
+    "no_cache": false,
+    "limit": null,
+    "bootstrap_iters": 100000,
+    "description_dict": {}
+  }
+}
